@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "Amplitude", targets: ["Amplitude"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ivalx1s/darwin-amplitude-ac.git", from: "1.0.010")
+        .package(url: "https://github.com/Darwell-Inc/darwin-amplitude-ac.git", from: "1.0.010")
     ],
     targets: [
         .target(
